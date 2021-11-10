@@ -1,0 +1,18 @@
+.FollowUp {
+  margin-left: 250px;
+  width: 1200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(177, 216, 201, 0.123);
+  width: 100%;
+}
+
+.updatefollowupbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

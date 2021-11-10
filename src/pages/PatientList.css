@@ -1,0 +1,135 @@
+.patientlist-main-container {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-container > h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.search-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(38, 44, 136, 0.445);
+
+  /* width: 100%; */
+}
+
+.search-container > input {
+  height: 50px;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.search-result-item {
+  width: 400px;
+  margin-top: 20px;
+
+  /* background-color: rgba(47, 30, 124, 0.089); */
+}
+.patient-containeritem {
+  width: 100%;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.search-result-card {
+  width: "90%";
+  padding: 12px 20px;
+  margin: 10px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 7px 9px 20px 0px rgb(216 216 216 / 47%);
+}
+.patient-item-card {
+  width: 390px;
+  padding: 12px 20px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 7px 9px 20px 0px rgb(216 216 216 / 47%);
+}
+
+.search-result-item {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #5f5f5f;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.id-container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #242424;
+  padding-right: 250px;
+}
+.name-container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.9rem;
+  font-weight: 300;
+  color: #242424;
+}
+
+.dob-container {
+  margin: 10px 0 10px;
+}
+
+.doa-container {
+  margin-bottom: 10px;
+}
+
+.twobuttondelview {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+.update-btn-container {
+  margin: 10px 0;
+  width: 120px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.update-btn-container > button {
+  background-color: #1d408d88;
+  width: 120px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}

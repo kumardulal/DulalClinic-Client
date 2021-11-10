@@ -1,0 +1,46 @@
+.SignIn {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  margin: auto;
+  z-index: 999;
+  background-color: rgb(158, 157, 235);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 3px solid #a093e6;
+}
+.loginbtn {
+  float: right;
+}
+.username {
+  margin-top: 30px;
+}
+.password {
+  margin-top: 30px;
+}
+.items {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  float: center;
+}
+.headerlogin {
+  font-family: Arial;
+
+  float: center;
+  font-size: 60px;
+  color: #3d379c;
+}
+
+.imglogo {
+  width: 65px;
+}
+.loginstatus {
+  color: #a81111;
+}

@@ -1,0 +1,55 @@
+.navbar {
+  background: #465076;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 998;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+  max-width: 1500px;
+}
+.logout {
+  margin-right: 30px;
+  padding: 8px;
+  background-color: #eeeef733;
+  width: 100px;
+  height: 45px;
+  font-size: 17px;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+.logo-img {
+  width: 65px;
+  margin-right: 20px;
+}

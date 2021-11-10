@@ -1,0 +1,76 @@
+.DetailInfo {
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-right: 200px;
+  align-self: center;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.UpdateButton {
+  background-color: #4caf7d;
+  border: none;
+  color: rgba(187, 67, 159, 0.781);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.input {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+}
+
+.DateForms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  width: 70%;
+  justify-content: center;
+}
+.titlecheckupdate {
+  padding: 10px;
+  background-color: rgba(48, 27, 145, 0.459);
+  font-size: large;
+  font-weight: bold;
+  width: 200px;
+}
+.date-list-container {
+  display: flex;
+  height: 55px;
+  width: 200px;
+  background-color: #2a21775e;
+  align-items: center;
+  justify-content: center;
+}
+
+.updatebtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.followupbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.HistoryDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flexitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgba(64, 224, 208, 0.493);
+}

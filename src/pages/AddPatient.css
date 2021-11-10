@@ -1,0 +1,164 @@
+.AddPatient {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .DetailInfo {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+   float: left;
+   
+}
+.personal-info {
+    padding-left: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.Date-Forms{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+   
+ 
+
+} */
+
+.main-container {
+  padding: 80px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container > h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+}
+
+.form-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  margin-left: 20%;
+}
+
+.grid-row > .form-item {
+  width: 28%;
+  margin-right: 4%;
+  margin-left: 0;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-item {
+  width: 60%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.form-item > label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+
+.form-item > textarea {
+  margin: 8px 0;
+  padding: 12px 20px;
+  height: 80px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -20%;
+}
+
+/* .followup-btn {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -20%;
+}
+
+
+
+.followup-btn>button {
+    background-color: #465076;
+    width: 25%;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+} */
+.btn-container > button {
+  background-color: #465076;
+  width: 25%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-container > button:hover,
+.btn-container > button:focus {
+  background-color: #2b2d47;
+}
+
+.checkup-header-container {
+  margin: 50px 0 50px;
+}
+
+.checkup-header-container > h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+}
